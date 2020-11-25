@@ -122,4 +122,4 @@ client.on("message", async message => {
 
 keepAlive();
 // Login the bot
-client.login("NzQwMTIxMzc3MDY3MTA2Mzg1.XykZvw.gITN3eDKbjlhiSWwn6GYucEoXYc");
+client.login(process.env.TOKEN);
